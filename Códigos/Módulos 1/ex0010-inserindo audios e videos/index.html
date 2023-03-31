@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem_m.png" type="image/png">
+        <img src="imagem_g.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo audios</h1>
+    <p>vamos aprender a reproduzir audios em html5</p>
+    <audio src="Giro da de Dez 011 DJ Rodrigo Campos/Giro da de Dez 011 - DJ Rodrigo Campos (01).mp3" controls autoplay></audio>
+    <br>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="Giro da de Dez 011 DJ Rodrigo Campos/Giro da de Dez 011 - DJ Rodrigo Campos (02).mp3" type="audio/mpeg">
+    </audio>
+
+    <H1>Inserindo videos hospedados</H1>
+    <p>Este video está hosperados no meu proprio servidor</p>
+
+    <video src="video_1.mp4" width="300" controls></video>
+    <br>
+    <video width="200"  poster="imagem p.png" controls>
+        <source src="video_1.mp4" type="video/mp4">
+    </video>
+
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    
+
+</body>
+</html>
