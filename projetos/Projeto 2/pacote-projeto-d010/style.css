@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #c5ebd5;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    background-image: linear-gradient(#1ef57b,#022601);
+    color: white;
+    min-height: 150px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+header > p{
+    font-size: 16px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+nav > a{ 
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    text-decoration: none; 
+}
+
+nav{
+    background-color: #022601;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav >a:hover{
+    background-color: #2ce926;
+    color: #022601 ;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* vértices arredondados*/
+    text-align: center;
+    margin-top: 10px;
+    min-width: 300px;
+    max-width: 1000px;   
+}
+
+
+
+main img{
+    width: 100%;
+
+
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+main strong{
+    color: #022601;
+    font-weight: bold;
+
+}
+
+
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0';
+    text-align: left;
+
+}
+
+
+aside > h2{
+    background-color: #25c96c;
+    color: white;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px 0px 10px 10px; /* vértices arredondados*/
+}
+
+aside{
+    background-color: #9cf0c0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 10px 10px; /* vértices arredondados*/
+}
+
+aside > p{
+    text-align: justify;
+    margin: 10px;
+    padding: 2px;
+
+
+}
+
+article > h2{
+    background-image: linear-gradient(to left,#edf5f0,#4fc74a);
+    font-family: "idroid";
+
+}
+    
+
+div.video{
+    margin: 0px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+
+}
+div.video >iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+
+
+.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+
+}
+
+footer > p{
+    margin: 0px;
+}
+
