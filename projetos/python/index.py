@@ -1,2 +1,0 @@
-import webbrowser
-from msal import ConfidentialClientApplication, PublicClientApplication
